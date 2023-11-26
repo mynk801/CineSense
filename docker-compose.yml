@@ -1,0 +1,7 @@
+version: '3'
+
+services:
+  frontend:
+    image: mynk801/testrepo:mayank
+    ports:
+      - "80:5000"

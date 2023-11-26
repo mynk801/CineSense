@@ -126,7 +126,6 @@ def recommend():
         for reviews in soup_result:
             if reviews.string:
                 reviews_list.append(reviews.string)
-                # passing the review to our model
                 movie_review_list = np.array([reviews.string])
                 movie_vector = vectorizer.transform(movie_review_list)
                 pred = clf.predict(movie_vector)
