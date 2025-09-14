@@ -1,1 +1,1 @@
-Cloud Performance Tuning Project - CineSense - A Movie Recommendation System
+CineSense - A Movie Recommendation System
